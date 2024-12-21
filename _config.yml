@@ -2,6 +2,7 @@ title: Meenakshi Sundaram Manickam
 description: Master of Science in Robotics at Purdue University 
 baseurl: "" # Leave blank for GitHub Pages
 url: "https://thundermms.github.io" # Your website URL
+avatar: /avatar.jpg
 remote_theme: vszhub/not-pure-poole
 plugins:
   - jekyll-feed
@@ -13,8 +14,7 @@ plugins:
 plugins:
   - jekyll-remote-theme # Enable the remote theme plugin
 # cover_image: /shirley_daytime.JPG
-cover_image: /public/cover_images/chicago_river.jpeg
-avatar: /2edited_low_qual.jpg
+cover_image: /autmn.jpeg
 paginate: 10
 permalink: "/:title/"
 
