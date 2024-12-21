@@ -1,0 +1,41 @@
+title: Meenakshi Sundaram Manickam
+description: Master of Science in Robotics at Purdue University 
+baseurl: "" # Leave blank for GitHub Pages
+url: "https://thundermms.github.io" # Your website URL
+remote_theme: vszhub/not-pure-poole
+plugins:
+  - jekyll-feed
+  - jekyll-remote-theme
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap
+plugins:
+  - jekyll-remote-theme # Enable the remote theme plugin
+# cover_image: /shirley_daytime.JPG
+cover_image: /public/cover_images/chicago_river.jpeg
+avatar: /2edited_low_qual.jpg
+paginate: 10
+permalink: "/:title/"
+
+sass:
+  sass_dir: _sass
+  style: :compressed
+
+# Specify the author for blog posts
+author:
+  name: Meenakshi Sundaram Manickam
+  url: https://github.com/thundermms/
+  email: mmanicka@purdue.edu
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
+
+defaults:
+  scope:
+    path: "" # empty string means all files
+    type: "posts"
+  values:
+    featured: false
