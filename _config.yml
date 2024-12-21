@@ -13,7 +13,7 @@ plugins:
   - jekyll-sitemap
 plugins:
   - jekyll-remote-theme # Enable the remote theme plugin
-cover_image: /autumn.jpeg
+cover_image: /chicago_walpaper.jpg
 paginate: 10
 permalink: "/:title/"
 
