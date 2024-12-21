@@ -13,7 +13,6 @@ plugins:
   - jekyll-sitemap
 plugins:
   - jekyll-remote-theme # Enable the remote theme plugin
-# cover_image: /shirley_daytime.JPG
 cover_image: /autumn.jpeg
 paginate: 10
 permalink: "/:title/"
